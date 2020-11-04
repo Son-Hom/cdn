@@ -30,27 +30,7 @@
     padding: 2px;
     color: grey !important;
 }
-.table{
-    width: 106%;
-    margin-left: -28px;
-    margin-top: -10px;
-}
-.table tr th{
-    font-size: 12px !important;
-    vertical-align: middle;
-    color: gray !important;
-    background-color: #fff !important;
-/*     border: none !important; */
-/*     border-bottom: 1px solid #ddd !important; */
-}
-.table tr td {
-    text-align: center !important;
-    vertical-align: middle;
-    font-size: 11px !important;
-/*     border: none !important; */
-    border-bottom: 1px solid #ddd !important;
-    background-color: #fff !important;
-} 
+
 body .p-paginator {
   background-color: #f4f4f4;
   border: 1px solid #c8c8c8;
@@ -182,11 +162,4 @@ body .p-datatable.p-datatable-borderless .p-paginator {
 .p-hidden-accessible input,
 .p-hidden-accessible select {
     transform: scale(0);
-}
-.pi-info:before {
-    content: "\e923";
-}
-
-.pi-info-circle:before {
-    content: "\e924";
 }
