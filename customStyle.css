@@ -73,7 +73,7 @@ input[type="search"] {
     text-align: center !important;
     vertical-align: middle;
     font-size: 11px !important;
-    border: none !important;
+/*     border: none !important; */
     border-bottom: 1px solid #ddd !important;
     background-color: #fff !important;
 } 
