@@ -67,7 +67,7 @@ input[type="search"] {
     color: gray !important;
     background-color: #fff !important;
     border: none !important;
-    border-bottom: 1px solid #ddd !important;
+/*     border-bottom: 1px solid #ddd !important; */
 }
 .table tr td {
     text-align: center !important;
