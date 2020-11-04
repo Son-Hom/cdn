@@ -1,5 +1,8 @@
-@media print {
-    @page {
-      size: landscape
-    }
-  }
+body {
+    background-color: red;
+    color: green;
+    
+}
+table {
+    border: 1px solid #ccc;
+}
