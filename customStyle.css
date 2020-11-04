@@ -1,30 +1,4 @@
-#add{
-    margin-top: 23px;
-    border-radius: 8px;
-}
-.wrapper {
-    float: right;
-    margin-top: 8px;
-    position: relative;
-}
-.search-icon {
-    position: absolute;
-    size: 10px;
-    color: grey;
-    top: 21px;
-    left: 8px;
-}
-input[type="search"] { 
-    text-indent: 2em;
-    border: 1px solid gainsboro;
-    
-} 
-#print{
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 15px;
-    border-radius: 8px;
-}
+
 #ellipsis{
     background-color: #fff; 
     color: #000;
