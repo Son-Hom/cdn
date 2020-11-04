@@ -290,3 +290,9 @@ body .p-paginator .p-dropdown {
   height: 2.286em;
   min-width: auto;
 }
+  body .p-datatable.p-datatable-responsive .p-paginator-top {
+    border-bottom: 1px solid #c8c8c8;
+  }
+  body .p-datatable.p-datatable-responsive .p-paginator-bottom {
+    border-top: 1px solid #c8c8c8;
+  }
