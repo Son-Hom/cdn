@@ -285,3 +285,8 @@ body .p-paginator .p-paginator-pages .p-paginator-page:not(.p-highlight):hover {
   background-color: #e0e0e0;
   color: #333333;
 }
+body .p-paginator .p-dropdown {
+  margin-left: 0.5em;
+  height: 2.286em;
+  min-width: auto;
+}
