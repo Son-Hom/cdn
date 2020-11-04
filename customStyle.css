@@ -191,3 +191,97 @@ button.p-button::-moz-focus-inner {
         width: 100%;
     }
 }
+body .p-paginator {
+  background-color: #f4f4f4;
+  border: 1px solid #c8c8c8;
+  padding: 0;
+}
+body .p-paginator .p-paginator-first,
+body .p-paginator .p-paginator-prev,
+body .p-paginator .p-paginator-next,
+body .p-paginator .p-paginator-last {
+  color: #848484;
+  height: 2.286em;
+  min-width: 2.286em;
+  border: 0 none;
+  line-height: 2.286em;
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
+  -moz-transition: background-color 0.2s, box-shadow 0.2s;
+  -o-transition: background-color 0.2s, box-shadow 0.2s;
+  -webkit-transition: background-color 0.2s, box-shadow 0.2s;
+  transition: background-color 0.2s, box-shadow 0.2s;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+body .p-paginator .p-paginator-first:not(.p-disabled):not(.p-highlight):hover,
+body .p-paginator .p-paginator-prev:not(.p-disabled):not(.p-highlight):hover,
+body .p-paginator .p-paginator-next:not(.p-disabled):not(.p-highlight):hover,
+body .p-paginator .p-paginator-last:not(.p-disabled):not(.p-highlight):hover {
+  background-color: #e0e0e0;
+  color: #333333;
+}
+body .p-paginator .p-dropdown {
+  border: 0 none;
+}
+body .p-paginator .p-dropdown .p-dropdown-trigger, body .p-paginator .p-dropdown .p-dropdown-label {
+  color: #848484;
+}
+body .p-paginator .p-dropdown:hover .p-dropdown-trigger, body .p-paginator .p-dropdown:hover .p-dropdown-label {
+  color: #333333;
+}
+body .p-paginator .p-paginator-first:before {
+  position: relative;
+  top: 1px;
+}
+body .p-paginator .p-paginator-prev:before {
+  position: relative;
+}
+body .p-paginator .p-paginator-next:before {
+  position: relative;
+  top: 1px;
+}
+body .p-paginator .p-paginator-last:before {
+  position: relative;
+  top: 1px;
+}
+body .p-paginator .p-paginator-current {
+  vertical-align: top;
+  display: inline-block;
+  height: 2.286em;
+  min-width: 2.286em;
+  border: 0 none;
+  line-height: 2.286em;
+}
+body .p-paginator .p-paginator-pages {
+  vertical-align: top;
+  display: inline-block;
+  padding: 0;
+}
+body .p-paginator .p-paginator-pages .p-paginator-page {
+  color: #848484;
+  height: 2.286em;
+  min-width: 2.286em;
+  border: 0 none;
+  line-height: 2.286em;
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
+  -moz-transition: background-color 0.2s, box-shadow 0.2s;
+  -o-transition: background-color 0.2s, box-shadow 0.2s;
+  -webkit-transition: background-color 0.2s, box-shadow 0.2s;
+  transition: background-color 0.2s, box-shadow 0.2s;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+body .p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+  background-color: #007ad9;
+  color: #ffffff;
+}
+body .p-paginator .p-paginator-pages .p-paginator-page:not(.p-highlight):hover {
+  background-color: #e0e0e0;
+  color: #333333;
+}
