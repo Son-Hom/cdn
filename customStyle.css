@@ -303,3 +303,6 @@ body .p-paginator .p-dropdown {
 .pi-info-circle:before {
     content: "\e924";
 }
+body .p-datatable.p-datatable-borderless .p-paginator {
+  border: 0 none;
+}
