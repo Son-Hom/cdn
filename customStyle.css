@@ -1,3 +1,82 @@
+#add{
+    margin-top: 23px;
+    border-radius: 8px;
+}
+.wrapper {
+    float: right;
+    margin-top: 8px;
+    position: relative;
+}
+.search-icon {
+    position: absolute;
+    size: 10px;
+    color: grey;
+    top: 21px;
+    left: 8px;
+}
+input[type="search"] { 
+    text-indent: 2em;
+    border: 1px solid gainsboro;
+    
+} 
+#print{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+#ellipsis{
+    background-color: #fff; 
+    color: #000;
+    border: none;
+    box-shadow: none;
+}
+#overlay_panel{
+    display: flex;
+    margin: 12px;
+    width:9%;
+    margin-left:5.5%;
+}
+.destinations{
+    display: flex;
+    justify-content: center !important;
+    padding: 2px;
+    margin: 10px !important;
+    font-size: 11px !important;
+    border-radius: 6px !important; 
+    color: #fff !important;
+    background-color: rgb(255, 166, 0) !important;
+}
+.status{
+    background-color: #ddd;
+    justify-content: center !important;
+    display: flex;
+    font-size: 10px !important;
+    border-radius: 6px !important;
+    padding: 2px;
+    color: grey !important;
+}
+.table{
+    width: 106%;
+    margin-left: -28px;
+    margin-top: -10px;
+}
+.table tr th{
+    font-size: 12px !important;
+    vertical-align: middle;
+    color: gray !important;
+    background-color: #fff !important;
+    border: none !important;
+    border-bottom: 1px solid #ddd !important;
+}
+.table tr td {
+    text-align: center !important;
+    vertical-align: middle;
+    font-size: 11px !important;
+    border: none !important;
+    border-bottom: 1px solid #ddd !important;
+    background-color: #fff !important;
+} 
 .p-button {
     display: inline-block;
     position: relative;
