@@ -5,6 +5,14 @@
     border: none;
     box-shadow: none;
 }
+.pi-ellipsis-v:before {
+    content: "\e950";
+}
+
+.pi-ellipsis-h:before {
+    content: "\e951";
+}
+
 #overlay_panel{
     display: flex;
     margin: 12px;
