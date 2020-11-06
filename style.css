@@ -6,7 +6,12 @@
     font-weight: normal;
     font-style: normal;
 }
-
+#ellipsis{
+    background-color: #fff; 
+    color: #000;
+    border: none;
+    box-shadow: none;
+}
 .pi {
     font-family: 'primeicons';
     speak: none;
