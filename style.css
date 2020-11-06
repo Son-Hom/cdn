@@ -48,6 +48,12 @@ textarea {
 .pi-ellipsis-h:before {
     content: "\e951";
 }
+#ellipsis{
+    background-color: #fff; 
+    color: #000;
+    border: none;
+    box-shadow: none;
+}
 .color-primary {
   color: #0099cc;
 }
