@@ -12,13 +12,6 @@
 .pi-ellipsis-h:before {
     content: "\e951";
 }
-
-#overlay_panel{
-    display: flex;
-    margin: 12px;
-    width:9%;
-    margin-left:5.5%;
-}
 .destinations{
     display: flex;
     justify-content: center !important;
@@ -146,28 +139,4 @@ body .p-paginator .p-dropdown {
   }
 body .p-datatable.p-datatable-borderless .p-paginator {
   border: 0 none;
-}
-.p-unselectable-text {
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-}
-.p-hidden {
-    display: none;
-}
-.p-hidden-accessible {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-.p-hidden-accessible input,
-.p-hidden-accessible select {
-    transform: scale(0);
 }
