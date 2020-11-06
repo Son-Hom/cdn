@@ -41,7 +41,13 @@ h2 {
 textarea {
   min-height: 100px;
 }
+.pi-ellipsis-v:before {
+    content: "\e950";
+}
 
+.pi-ellipsis-h:before {
+    content: "\e951";
+}
 .color-primary {
   color: #0099cc;
 }
