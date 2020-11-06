@@ -1,7 +1,4 @@
-body{
-    background-color:rgb(255, 166, 0) !important;
-}
-#ellipsis{
+.ellipsis{
     background-color: #fff; 
     color: #000;
     border: none;
