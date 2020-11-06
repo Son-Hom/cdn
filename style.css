@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #f9fbfc;
@@ -354,50 +355,7 @@ textarea:hover {
   color: white !important;
 }
 
-.btn.btn-disabled {
-  background-color: #e6ecef;
-  border: 1px solid #e6ecef;
-  color: #929698;
-}
 
-.btn.btn-disabled:hover {
-  cursor: not-allowed;
-}
 
-.navbar-nav li a {
-  font-size: 12px;
-}
-
-.navbar.bg-primary {
-  background-color: #0099cc !important;
-}
-
-.navbar.bg-accent {
-  background-color: #7fad33 !important;
-}
-
-.navbar.bg-secondary {
-  background-color: #e6ecef !important;
-}
-
-.navbar.bg-error {
-  background-color: #ff6666 !important;
-}
-
-.navbar.bg-success {
-  background-color: #7fad33 !important;
-}
-
-.navbar.bg-transparent {
-  background-color: transparent !important;
-}
-
-.navbar.bg-transparent-light {
-  background-color: rgba(255, 255, 255, 0.8) !important;
-}
-
-.navbar.bg-transparent-dark {
-  background-color: rgba(0, 0, 0, 0.5) !important;
-}
 
 /*# sourceMappingURL=kidlat.css.map
